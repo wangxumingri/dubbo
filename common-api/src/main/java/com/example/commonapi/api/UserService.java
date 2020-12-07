@@ -1,9 +1,9 @@
 package com.example.commonapi.api;
 
-        import com.example.commonapi.dto.UserDto;
 
-        import java.util.Map;
+import com.example.commonapi.dto.LoginReqDto;
+import com.example.commonapi.dto.LoginResDto;
 
 public interface UserService {
-    Map<String,Object> login(String username, String passwordd);
+    LoginResDto login(LoginReqDto loginReqDto);
 }
