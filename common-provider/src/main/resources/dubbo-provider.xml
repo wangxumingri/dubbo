@@ -10,7 +10,7 @@
     <!--应用名称-->
     <dubbo:application name="demo-provider"/>
     <!--注册中心地址-->
-    <dubbo:registry group="${dubbo.registry.group:dubbo}" address="zookeeper://127.0.0.1:2181"/>
+    <dubbo:registry group="${dubbo.registry.group:dubbo}" address="zookeeper://127.0.0.1:2181" />
     <!--端口-->
     <dubbo:protocol id="p1" name="dubbo" port="20890"/>
 
