@@ -1,12 +1,10 @@
 package com.wxss.bootdubboprovider.service;
 
-import com.alibaba.dubbo.config.annotation.Service;
 import com.example.commonapi.api.UserService;
 import com.example.commonapi.dto.LoginReqDto;
 import com.example.commonapi.dto.LoginResDto;
 
-@Service // spring的注解
-public class BootUserServiceImpl implements UserService {
+public class ApiUserServiceImpl implements UserService {
 
     @Override
     public LoginResDto login(LoginReqDto loginReqDto) {
